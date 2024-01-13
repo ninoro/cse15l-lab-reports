@@ -65,8 +65,14 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
     <br> _Working Directory_: home <br>
     The `cd` command changes the directory to lecture1
     <br> _Working Directory_: lecture1 <br>
-    _Error_: messages is a directory, not a file like the output states.
+    _Error_: messages is a directory like the output states, not a file.
 
+     ![Image](img40.png)
+     <br> _Working Directory_: messages <br>
+     The `cat` command reads the content of the `en-us.txt` file and prints out the output. (Misspelled `txt` as `text` the first time, eeps)
+     <br> _Error_: No Errors <br>
+
+     ![Image](img41.png)
 
      
 
