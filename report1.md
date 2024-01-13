@@ -51,16 +51,16 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
      The `cat` command prints out the contents of the file. Since there is no argument, the `cat` command will display the content of the standard input (stdin). This means it will wait to input text manually.
      <br> _Error_: No Errors <br>
 
-       ![Image](img8.png)
+     ![Image](img8.png)
   2) Command with a path to a directory
       <br> _Working Directory_: home <br>
       _Error_: The `cat` command cannot read the contents the lecture1 directory mentioned as the argument, giving the output that the argument mentioned is a directory.
 
-      ![Image](img8.png)
+     ![Image](img8.png)
      <br> _Working Directory_: home <br>
       _Error_: The `cat` command is not run in the lecture1 directory, so the messages folder is not recognized.
 
-      ![Image](img8.png)
+     ![Image](img8.png)
   3) Command with a path to a file
     <br> _Working Directory_: home <br>
     The `cd` command changes the directory to lecture1
