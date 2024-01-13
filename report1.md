@@ -8,13 +8,13 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
       <br> _Error_: No Errors <br>
      
       ![Image](img11.png)
-  2) Command with a path to a directory
+  3) Command with a path to a directory
       <br> _Working Directory_: home <br>
        The `cd` command changes the current directory to lecture1.
      <br> _Error_: No Errors <br>
 
      ![Image](img1.png)
-   3) Command with a path to a file
+   4) Command with a path to a file
       <br> _Working Directory_: lecture1 <br>
        The `cd` command changes the current directory to messages.
      <br> _Error_: No Errors <br>
