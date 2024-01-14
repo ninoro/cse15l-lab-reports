@@ -10,7 +10,7 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
   ![Image](img11.png)
      
   2) Command with a path to a directory
-      <br> _Working Directory_: home <br>
+  <br> _Working Directory_: home <br>
        The `cd` command changes the current directory to lecture1.
      <br> _Error_: No Errors <br>
 
