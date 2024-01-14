@@ -53,7 +53,7 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
 <br>- Using Command `cat`<br>
   1) No arguments
   <br> _Working Directory_: home <br>
-     The `cat` command prints out the contents of the file. Since there is no argument, the `cat` command will display the content of the standard input (stdin). This means it will wait to input text manually.
+     The `cat` command prints out the contents of the file. Since there is no argument, the `cat` command will display the content of the text entered as standard input.
      <br> _Error_: No Errors <br>
 
   ![Image](img8.png)
