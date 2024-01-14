@@ -7,7 +7,7 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
      The `cd` command changes the current directory to the one mentioned as the argument. Since there is no argument, `cd` remains in the working directory which is home here.
       <br> _Error_: No Errors <br>
      
-      ![Image](img11.png)
+     ![Image](img11.png)
      
   3) Command with a path to a directory
       <br> _Working Directory_: home <br>
@@ -21,7 +21,7 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
        The `cd` command changes the current directory to messages.
      <br> _Error_: No Errors <br>
 
-      ![Image](img1.png)
+     ![Image](img1.png)
 
 - Using Command `ls`
   1) No arguments
@@ -29,20 +29,20 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
     The `ls` command displays the files or folders in the path entered as the argument. Since there is no argument, the folders in the current directory are displayed.
      <br> _Error_: No Errors <br>
 
-       ![Image](img7.png)
+     ![Image](img7.png)
      
   2) Command with a path to a directory
       <br> _Working Directory_: home <br>
       The `ls` command displays the folders in the lecture1 path.
      <br> _Error_: No Errors <br>
 
-       ![Image](img7.png)
+     ![Image](img7.png)
      
    3) Command with a path to a file
       <br> _Working Directory_: home <br>
      _Error_: The `ls` command cannot display the folders or files present in messages without first moving to the lecture1 directory.
 
-      ![Image](img7.png)
+    ![Image](img7.png)
       
      <br> _Working Directory_: lecture1 <br>
      The `ls` command now displays the files present in messages.
