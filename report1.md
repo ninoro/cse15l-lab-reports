@@ -29,9 +29,8 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
   ![Image](img1.png)
      
   3) Command with a path to a file
-  <br> _Working Directory_: lecture1 <br>
-       The `cd` command changes the current directory to messages.
-     <br> _Error_: No Errors <br>
+  <br> _Working Directory_: messages <br>
+     _Error_: The `cd` command cannot change directories because the argument `en-us.txt` is a file.
 
   ![Image](img1.png)
 
