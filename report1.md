@@ -9,11 +9,11 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
      
  ![Image](img11.png)
 
-  <br> _Working Directory_: messages <br>
+  <br> _Working Directory_: lecture1 <br>
       The `cd` command changes the current directory to home.
       <br> _Error_: No Errors <br>
 
-  ![Image](pic1.png)
+ ![Image](pic2.png)
 
   <br> _Working Directory_: messages <br>
       The `cd` command changes the current directory to home.
