@@ -32,7 +32,7 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
   <br> _Working Directory_: messages <br>
      _Error_: The `cd` command cannot change directories because the argument `en-us.txt` is a file.
 
-  ![Image](img1.png)
+  ![Image](pic3.png)
 
 <br>- Using Command `ls`<br>
   1) No arguments
