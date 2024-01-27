@@ -30,7 +30,7 @@ __Lab Report 1 - Remote Access and FileSystem (Week 1)__
      
   3) Command with a path to a file
   <br> _Working Directory_: messages <br>
-     _Error_: The `cd` command cannot change directories because the argument `en-us.txt` is a file.
+     _Error_: The `cd` command cannot change directories because the argument `en-us.txt` is a file, not a directory.
 
   ![Image](pic3.png)
 
