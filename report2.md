@@ -1,3 +1,7 @@
+__Lab Report 2 - Servers and SSH Keys (Week 3)__
+-------------
+
+
 Code for ChatServer:
 
      import java.io.IOException;
