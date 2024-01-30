@@ -1,8 +1,9 @@
 Code for ChatServer:
-import java.io.IOException;
-import java.net.URI;
 
-class ChatServerOne implements URLHandler {
+     import java.io.IOException;
+     import java.net.URI;
+
+    class ChatServerOne implements URLHandler {
     private String chatMessages = "";
     public String handleRequest(URI url) {
              
@@ -30,10 +31,10 @@ class ChatServerOne implements URLHandler {
         }
     }
     return "404 Not Found!";
-  }
-}
+    }
+    }
 
-class ChatServer {
+    class ChatServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -44,4 +45,7 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}
+    }
+
+Screenshots:
+
