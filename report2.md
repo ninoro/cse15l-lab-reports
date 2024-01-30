@@ -53,12 +53,14 @@ Code for ChatServer:
 
 Screenshots:
 ![Image](lb2.png)
+
 <br>_Method_: `handleRequest`, `main`<br>
 <br> _Arguments_: `URI url` in `handleRequest`, `String[] args` for `main`<br>
 <br> _Fields_: `chatMessages` in `handleRequest`<br>
 <br> _Changes_: `chatMessages` gets updated with the new chat message `jpolitz: Hello\n`<br>
 
 ![Image](lb21.png)
+
 <br>_Method_: `handleRequest`, `main`<br>
 <br> _Arguments_: `URI url` in `handleRequest`, `String[] args` for `main`<br>
 <br> _Fields_: `chatMessages` in `handleRequest`<br>
