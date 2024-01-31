@@ -54,17 +54,18 @@ Code for ChatServer:
 Screenshots:
 ![Image](lb2.png)
 
-<br>_Method_: `handleRequest`, `main`<br>
-<br> _Arguments_: `URI url` in `handleRequest`, `String[] args` for `main`<br>
-<br> _Fields_: `chatMessages` in `handleRequest`<br>
-<br> _Changes_: `chatMessages` gets updated with the new chat message `jpolitz: Hello\n`<br>
-
+<br>_Method_: `handleRequest()`, `getQuery()`<br>
+<br> _Arguments_: `URI url` in `handleRequest` <br>
+<br> _Fields_: `String queryString`, `String[] parameters`, `String user`, and `String message`<br>
+<br> _Changes_: `String queryString` is dependent on `URI url`, and `String[] parameters`, `String user`, `String message` depend on `String queryString`. Once `/add-message` following different queries are added to `URI url`, it changes the values to `String[]`
+<br>`parameters`,`String user`, `String message`, which changes the printed messages on the webserver. In this case, `getQuery()` got the value of `String user` "jpolitz" and the value of `String message` "Hello", and it printed "jpolitz: Hello".
 ![Image](lb21.png)
 
-<br>_Method_: `handleRequest`, `main`<br>
-<br> _Arguments_: `URI url` in `handleRequest`, `String[] args` for `main`<br>
-<br> _Fields_: `chatMessages` in `handleRequest`<br>
-<br> _Changes_: `chatMessages` gets updated with the new chat message `jpolitz: Hello\nyash: How are you\n`<br>
+<br>_Method_: `handleRequest()`, `getQuery()`<br>
+<br> _Arguments_: `URI url` in `handleRequest` <br>
+<br> _Fields_: `String queryString`, `String[] parameters`, `String user`, and `String message`<br>
+<br> _Changes_: `String queryString` is dependent on `URI url`, and `String[] parameters`, `String user`, `String message` depend on `String queryString`. Once `/add-message` following different queries are added to `URI url`, it changes the values to `String[]`
+<br>`parameters`,`String user`, `String message`, which changes the printed messages on the webserver. In this case, `getQuery()` got the value of `String user` "yash" and the value of `String message` "How are you", and it printed "yash: How+are+you".
 
 Part 2
 ---
@@ -74,3 +75,7 @@ Part 2
 <br> __Question 3__ <br>
 ![Image](unnamed.png)
 ![Image](unnamedd.png)
+
+Part 3
+--
+I learnt how to set up SSH keys which did not require entering the password while logging in to the remote server. I also learnt how `/` and before `?` is a path and after `?` is a query. Also found out what `mkdir` and `scp` stood for and how to use those commands.
