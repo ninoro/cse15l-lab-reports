@@ -68,6 +68,8 @@ Screenshots:
 
 Part 2
 ---
+<br> __Question 2__ <br>
+![Image](unnamed.png)
 
 <br> __Question 3__ <br>
 ![Image](unnamed.png)
