@@ -78,6 +78,7 @@ The absolute path to the private key: `C:\Users\nnoro\.ssh/id_rsa`
 The absolute path to the public key on ieng6's file system: `C:\Users\nnoro\.ssh/id_rsa.pub`
 
 <br> __Question 3__ <br>
+A terminal interaction where you log into your ieng6 account without being asked for a password.
 ![Image](unnamed.png)
 ![Image](unnamedd.png)
 
