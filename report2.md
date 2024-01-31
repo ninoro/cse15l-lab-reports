@@ -66,3 +66,8 @@ Screenshots:
 <br> _Fields_: `chatMessages` in `handleRequest`<br>
 <br> _Changes_: `chatMessages` gets updated with the new chat message `jpolitz: Hello\nyash: How are you\n`<br>
 
+Part 2
+---
+
+<br> __Question 3__ <br>
+
