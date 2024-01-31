@@ -71,11 +71,11 @@ Part 2
 ---
 <br> __Question 1__ <br>
 ![Image](savedlife.png)
-The absolute path to the private key: `C:\Users\nnoro/.ssh/id_rsa`
+The absolute path to the private key: `C:\Users\nnoro\.ssh/id_rsa`
 
 <br> __Question 2__ <br>
-![Image](unnamed.png)
-The absolute path to the public key on ieng6's file system: `C:\Users\nnoro/.ssh/id_rsa.pub`
+![Image](named.png)
+The absolute path to the public key on ieng6's file system: `C:\Users\nnoro\.ssh/id_rsa.pub`
 
 <br> __Question 3__ <br>
 ![Image](unnamed.png)
