@@ -72,14 +72,17 @@ Part 2
 ---
 <br> __Question 1__ <br>
 ![Image](savedlife.png)
+
 The absolute path to the private key: `C:\Users\nnoro\.ssh/id_rsa`
 
 <br> __Question 2__ <br>
 ![Image](named.png)
+
 The absolute path to the public key on ieng6's file system: `C:\Users\nnoro\.ssh/id_rsa.pub`
 
 <br> __Question 3__ <br>
 A terminal interaction where you log into your ieng6 account without being asked for a password.
+
 ![Image](unnamed.png)
 ![Image](unnamedd.png)
 
