@@ -148,6 +148,10 @@ technical/plos/pmed.0020281.txt
 ```
 This command gives the names of the files which have a size larger than the specified size. `3` denotes that the size of the files is 3 KB, and `k`specifies the unit of measurement which is kilobytes here.
 
+<br> __Source__ : ChatGPT (Prompt: find command line options) <br>
+
+
+
 
 
 
