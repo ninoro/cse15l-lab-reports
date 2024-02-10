@@ -33,5 +33,14 @@ static void reverseInPlace(int[] arr) {
 ```
 After code change:
 ```
+ static void reverseInPlace(int[] arr) {
+    for (int i = 0; i < arr.length / 2; i++) {
+        int var = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = var;
+    }
+}
+```
+
 
 
