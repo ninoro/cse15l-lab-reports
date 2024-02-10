@@ -1,5 +1,6 @@
-Lab Report 3 - Bugs and Commands (Week 5)
----
+# Lab Report 3 - Bugs and Commands (Week 5)
+
+## Part 1 - Bugs
 I chose the bug (`reverseInPlace`) from `ArrayExamples.java`. The buggy program was tested using `ArrayTests.java`
 
 _Failure-inducing JUnit Test_:
@@ -43,8 +44,8 @@ _After code change_:
 ```
 _Fix_: In the corrected code, we only loop through half of the array's length because when we're reversing an array, we need to swap elements from both ends towards the middle. This approach ensures that we don't swap elements twice. We use a temporary variable to temporarily hold the value of one element while we move another element. This prevents the loss of data during the swapping process. We swap the element at the current index (i) with the element at the opposite index from the end of the array (arr.length - i - 1). This swapping continues until we've swapped all elements from one end to the other.
 
-Part 2 - Researching Commands
----
+## Part 2 - Researching Commands
+
 1)`-size n[cwbkMG]`
 <br> _Example 1_ <br>
 Code:
