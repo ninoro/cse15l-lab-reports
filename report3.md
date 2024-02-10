@@ -19,5 +19,6 @@ public void testReversed() {
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 }
 ```
+Screenshot of output while running these two tests:
 
 
