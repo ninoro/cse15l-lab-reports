@@ -20,5 +20,8 @@ public void testReversed() {
 }
 ```
 Screenshot of output while running these two tests:
+![Image](savedtest.png)
+![Image](savedtest2.png)
+
 
 
