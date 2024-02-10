@@ -1,3 +1,23 @@
 Lab Report 3 - Bugs and Commands (Week 5)
 ---
+I chose the bug (`reverseInPlace`) from `ArrayExamples.java`. The buggy program was tested using `ArrayTests.java`
+
+Failure-inducing JUnit Test:
+```
+@Test 
+public void testReverseInPlace() {
+    int[] input1 = {1, 2, 4};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{4, 2, 1}, input1);
+}
+```
+Not a failure-inducing JUnit Test:
+```
+@Test
+public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+}
+```
+
 
