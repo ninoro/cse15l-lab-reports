@@ -76,6 +76,7 @@ Part 2
 The absolute path to the private key: `C:/Users/nnoro/.ssh/id_rsa`
 
 <br> __Question 2__ <br>
+![Image](IMG.png)
 ![Image](imggg.png)
 
 The absolute path to the public key on ieng6's file system: `/home/linux/ieng6/oce/24/724/ninoronha/.ssh/authorized_keys`
