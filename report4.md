@@ -9,7 +9,7 @@ _Keys pressed:_ `ssh<space>ninoronha@ieng6-202.ucsd.edu<enter>`
  __Step 2__: Clone your fork of the repository from your Github account (using the `SSH` URL)
 
 ![Image](finalcomp3.png)
-_Keys pressed:_ `git<space>clone<space>git@github.com:ninoro/lab7.git<enter>`
+<br> _Keys pressed:_ `git<space>clone<space>git@github.com:ninoro/lab7.git<enter>` <br>
 
  __Step 3__: Run the tests, demonstrating that they fail
 
