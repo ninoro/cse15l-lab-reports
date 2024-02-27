@@ -6,7 +6,7 @@ __Step 1__: Log into ieng6
 ![Image](finalcomp2.png)
 _Keys pressed:_ `ssh<space>ninoronha@ieng6-202.ucsd.edu<enter>`
 
- __Step 2__: Clone your fork of the repository from your Github account (using the SSH URL)
+ __Step 2__: Clone your fork of the repository from your Github account (using the `SSH` URL)
 
 ![Image](finalcomp3.png)
 _Keys pressed:_ `git<space>clone<space>git@github.com:ninoro/lab7.git<enter>`
@@ -32,7 +32,7 @@ _Keys pressed:_ `bash<space>test.sh<space>`
 
  __Step 6__: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![Image](finalcomp5.png)
+![Image](finalcomp8.png)
 <br> _Keys pressed:_ Clicked on `Source Control` view, and on `Commit & Push` to push the changes.
 
 
