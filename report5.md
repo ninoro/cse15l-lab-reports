@@ -18,6 +18,13 @@ Hello! I took a look at the code snippet you have shared and it does seem likely
 
 # After Fix
 
+![Image](5pic4.png)
+
+Changing the operators of the while loops to “<” instead of “<=” helped duebug my code and my test cases passed successfully. The index would try to access index1, which was higher than the length of the list, and this would put it out of bounds.
+
+# Setup
+
+
 
 
 
