@@ -24,6 +24,20 @@ Changing the operators of the while loops to “<” instead of “<=” helped 
 
 _Setup_
 
+_Content of each file before fix_
+__ListExamples.java__
+__TestListExamples.java__
+__test.sh__
+
+I executed the command "bash test.sh" to trigger the bug. To address the issue, I removed the equal sign in the final while loops. Specifically, the while loop, "index2 <= list2.size()" was modified to "index2 < list2.size()".
+
+__Part 2 – Reflection__
+
+I learnt about using bash scripts to run the tests. I also learnt about various commands like `wc` in order to extract specific information like getting the word count, the number of lines etc. in the different files present in the folder.
+
+
+
+
 
 
 
