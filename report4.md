@@ -35,7 +35,9 @@ _Keys pressed:_ `bash<space>test.sh<enter>`
 
  __Step 6__: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![Image](finalcomp8.png)
+![Image](clear1.png)
+![Image](clear2.png)
+
 <br> _Keys pressed:_ `git<space>add<space>*<enter>` to add the changes and `git<space>commit<space>-m<space>"fixed<space>error"<enter>` to commit the changes to the main branch.
 
 
