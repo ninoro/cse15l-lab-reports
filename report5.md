@@ -24,8 +24,15 @@ Changing the operators of the while loops to “<” instead of “<=” helped 
 
 _Setup_
 
+![Image](pci1.png)
+
 _Content of each file before fix_
 __ListExamples.java__
+
+![Image](pci2.png)
+
+![Image](pci3.png)
+
 __TestListExamples.java__
 __test.sh__
 
